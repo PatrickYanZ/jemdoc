@@ -1,26 +1,19 @@
-# jemdoc: menu{MENU}{research.html}
+# jemdoc: menu{MENU}{research.html}, notime
 # jemdoc: addcss{../../jemdoc.css}
-= Topic Name
+= Quantum Machine Learning
 
-More about this topic.
 
-More about this topic.
+We explore the integration of variational quantum circuits (VQCs) and Condition Value at Risk (CVaR) to optimize the kinematics and network connectivity of autonomous vehicles (AVs) under stochastic conditions, such as wireless channels and traffic dynamics.
 
-The following are a few problems that we are interested to address:
-- Problem 1
-- Problem 2
-- Problem 3
+Our study employs *VQC-based* multi-objective reinforcement learning (MORL) to simultaneously manage:
+- Cell-association and *autonomous driving* policies for AVs on a multi-lane highway.
+- Base stations (BSs) operating across RF and THz spectrums.
 
-{{<img class="center" style="width: 30em;" src="topic.jpg"></img>}}
+To achieve these goals, we formulate the problem as a multi-objective Markov decision process (MOMDP) and transform it into * quantum eigen-states and eigen-actions* using quantum circuits. This approach aims to maximize handoff-aware data rates, enhance traffic flow, and ensure collision avoidance.
 
-== Active lab members
-The following lab members are actively working on this topic:
-- Member 1
-- Member 2
-
+{{<img class="center" style="width: 30em;" src="./icc24_illustration-Page.jpg"></img>}}
 
 == Related publications
-The following publications are related to this topic:
-- M. Member and M. Member. Paper title. Publication info.
-- M. Member and M. Member. Paper title. Publication info.
+- *Zijiang Yan*, Hao Zhou, Jianhua Pei, Aryan Kaushik, Hina Tabassum, Ping Wang. [https://arxiv.org/abs/2501.08418 CVaR-Based Variational Quantum Optimization for User Association in Handoff-Aware Vehicular Networks]. IEEE International Conference on Communications (ICC'25), 2025.
 
+- *Zijiang Yan*, Ramsundar Tanikella, Hina Tabassum. [https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620888 Optimizing Vehicular Networks with Variational Quantum Circuits-based Reinforcement Learning]. IEEE International Conference on Computer Communications (INFOCOM'24 Poster), 2024.

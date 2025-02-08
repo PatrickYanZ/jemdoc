@@ -1,26 +1,20 @@
-# jemdoc: menu{MENU}{research.html}
+# jemdoc: menu{MENU}{research.html}, notime
 # jemdoc: addcss{../../jemdoc.css}
-= Topic Name
-
-More about this topic.
-
-More about this topic.
-
-The following are a few problems that we are interested to address:
-- Problem 1
-- Problem 2
-- Problem 3
-
-{{<img class="center" style="width: 30em;" src="topic.jpg"></img>}}
-
-== Active lab members
-The following lab members are actively working on this topic:
-- Member 1
-- Member 2
+= Hybrid LLM-DDQN based Joint Optimization of V2I Communication and Autonomous Driving
 
 
-== Related publications
-The following publications are related to this topic:
-- M. Member and M. Member. Paper title. Publication info.
-- M. Member and M. Member. Paper title. Publication info.
+Large language models (LLMs) have received considerable interest recently due to their outstanding reasoning and comprehension capabilities.
 
+This work explores applying LLMs to vehicular networks, aiming to jointly optimize vehicle-to-infrastructure (V2I) communications and autonomous driving (AD) policies.
+
+We deploy LLMs for AD decision-making to maximize traffic flow and avoid collisions for road safety, and a double deep Q-learning algorithm (DDQN) is used for V2I optimization to maximize the received data rate and reduce frequent handovers.
+
+In particular, for LLM-enabled AD, 
+
+- We employ the Euclidean distance to identify previously explored AD experiences, and then LLMs can learn from past good and bad decisions for further improvement. 
+- Then, LLM-based AD decisions will become part of states in V2I problems, and DDQN will optimize the V2I decisions accordingly.
+
+{{<img class="center" style="width: 30em;" src="./llm-highway-env.png"></img>}}
+
+== Related Publications
+- *Zijiang Yan*, Hao Zhou, Hina Tabassum, Xue Liu, [https://doi.org/10.1109/LWC.2025.3539638 Hybrid LLM-DDQN based Joint Optimization of V2I Communication and Autonomous Driving]. IEEE Wireless Communications Letters, 2025.

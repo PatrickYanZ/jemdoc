@@ -1,26 +1,18 @@
-# jemdoc: menu{MENU}{research.html}
+# jemdoc: menu{MENU}{research.html}, notime
 # jemdoc: addcss{../../jemdoc.css}
-= Topic Name
+= Multi-UAVs Path Planning and Aerial Communication
 
-More about this topic.
-
-More about this topic.
+Develops a Branching Dueling deep reinforcement learning solution to simultaneously optimize the multi-UAV cell-association decisions and their moving speed decisions on a given 3D aerial highway.
 
 The following are a few problems that we are interested to address:
-- Problem 1
-- Problem 2
-- Problem 3
 
-{{<img class="center" style="width: 30em;" src="topic.jpg"></img>}}
+- Multi UAVs collisions
+- Connectivity
+- Handoffs
 
-== Active lab members
-The following lab members are actively working on this topic:
-- Member 1
-- Member 2
+{{<img class="center" style="width: 30em;" src="./uav-mdp-projection.png"></img>}}
+{{<img class="center" style="width: 30em;" src="./uav-mdp-vertical.png"></img>}}
 
 
 == Related publications
-The following publications are related to this topic:
-- M. Member and M. Member. Paper title. Publication info.
-- M. Member and M. Member. Paper title. Publication info.
-
+- *Zijiang Yan*, Wael Jaafar, Bassant Selim, Hina Tabassum, [https://ieeexplore.ieee.org/document/10436730 Multi-UAV Speed Control with Collision Avoidance and Handover-Aware Cell Association - DRL with Action Branching]. IEEE Global Communications Conference (GLOBECOM'23), 2023.
