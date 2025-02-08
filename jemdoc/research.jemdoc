@@ -11,39 +11,39 @@
 - Diffusion Model
 - Semantic Communication
 
-== [/research/topic1 RF-Thz-HighwayEnv]
+== [./research/topic1 RF-Thz-HighwayEnv]
 ~~~
 {}{table}{TABLE_RESEARCH}
-{{<a href="/research/topic1"><img class="float padright10px" src="./research/topic1/av-rf-thz-update.png" height="200px" ></img></a>}}
+{{<a href="./research/topic1"><img class="float padright10px" src="./research/topic1/av-rf-thz-update.png" height="200px" ></img></a>}}
 A Novel simulation testbed that emulates multi-band wireless network-enabled VNet RF-THz-Highway-Env based on [https://github.com/Farama-Foundation/HighwayEnv HighwayEnv]. This test environment not only inherits the advantages of autonomous driving, and lane changes on the highway, but also implements RF/THz channel propagation modeling, network selection, and HO control.  \n\n
 
-[/research/topic1 \[read more\]].
+[./research/topic1 \[read more\]].
 ~~~
 
-== [/research/topic2 Hybrid LLM-DDQN Optimization]
+== [./research/topic2 Hybrid LLM-DDQN Optimization]
 ~~~
 {}{table}{TABLE_RESEARCH}
-{{<a href="/research/topic2"><img class="float padright10px" src="./research/topic2/llm-highway-env.png" height="200px"></img></a>}}
+{{<a href="./research/topic2"><img class="float padright10px" src="./research/topic2/llm-highway-env.png" height="200px"></img></a>}}
 Large language models (LLMs) have received considerable interest recently due to their outstanding reasoning and comprehension capabilities.This work explores applying LLMs to vehicular networks, aiming to jointly optimize vehicle-to-infrastructure (V2I) communications and autonomous driving (AD) policies.  \n\n
 
-[/research/topic2 \[read more\]].
+[./research/topic2 \[read more\]].
 ~~~
 
-== [/research/topic3 UAVs Path Planning and Aerial Communication]
+== [./research/topic3 UAVs Path Planning and Aerial Communication]
 ~~~
 {}{table}{TABLE_RESEARCH}
-{{<a href="/research/topic3"><img class="float padright10px" src="./research/topic3/uav-mdp-projection.png" height="200px"></img></a>}}
+{{<a href="./research/topic3"><img class="float padright10px" src="./research/topic3/uav-mdp-projection.png" height="200px"></img></a>}}
 Simultaneously optimize the multi-UAV cell-association decisions and their moving speed decisions on a given 3D aerial highway. The objective is to improve both the transportation and communication performances, e.g., collisions, connectivity, and HOs.  \n\n
 
-[/research/topic3 \[read more\]].
+[./research/topic3 \[read more\]].
 ~~~
 
-== [/research/topic4 Quantum Machine Learning]
+== [./research/topic4 Quantum Machine Learning]
 ~~~
 {}{table}{TABLE_RESEARCH}
-{{<a href="/research/topic4"><img class="float padright10px" src="./research/topic4/icc24_illustration-Page.jpg"  height="200px"></img></a>}}
+{{<a href="./research/topic4"><img class="float padright10px" src="./research/topic4/icc24_illustration-Page.jpg"  height="200px"></img></a>}}
 We explore the integration of variational quantum circuits (VQCs) and Condition Value at Risk (CVaR) to optimize the kinematics and network connectivity of autonomous vehicles (AVs) under stochastic conditions, such as wireless channels and traffic dynamics.  \n\n
 
-[/research/topic4 \[read more\]].
+[./research/topic4 \[read more\]].
 ~~~
 
