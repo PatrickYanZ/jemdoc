@@ -12,11 +12,11 @@
 
 # Research
 RESEARCH_DOCS= \
-	research/topic1/index research/topic2/index research/topic3/index
+	research/topic1/index research/topic2/index research/topic3/index research/topic4/index
 
 # All Jemdoc files
 # DOCS=index teaching members research publications software news contacts $(TEACHING_DOCS) $(MEMBER_DOCS) $(RESEARCH_DOCS) $(SOFTWARE_DOCS)
-DOCS=index research publications $(RESEARCH_DOCS) 
+DOCS=index research publications experiences awards $(RESEARCH_DOCS) 
 ## HTML Files
 HDOCS=$(addsuffix .html, $(DOCS))
 PHDOCS=$(addprefix html/, $(HDOCS))
