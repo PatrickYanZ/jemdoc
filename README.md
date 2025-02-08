@@ -1,5 +1,9 @@
 {Jemdoc Website}: a ready-to-use Jemdoc website for research-groups and similar organizations (supports Python3)
 ====
+Thanks following documentation
+https://github.com/jshang2/jshang2.github.io
+https://github.com/mkhaled87/jemdoc-ready
+
 
 This is a simple website and News/Rss-feed system for research groups and similar websites. This template is developed using a simple scripting language called [JEMDOC](https://jemdoc.jaboc.net). Only [Python](https://www.python.org) is required to work with this website. Unless you plan to use an FTP client, you will need [lftp](https://lftp.yar.ru) to publish the website via the FTP protocol to the hosting server.
 
