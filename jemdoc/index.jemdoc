@@ -1,68 +1,34 @@
-# jemdoc: menu{MENU}{index.html}
-# jemdoc: addcss{slideshow.css}
-~~~
-{}{table}{TABLE_HOME_HEAD}
-{{<img class="float" style="width: 100px; margin-left:-15px; margin-top: 13px;" src="images/logo.jpg"></img>}}
-{{<h1 style="padding-bottom: 22px; margin-bottom: 0.3em; margin-top: 5px;">Website Name <span style = "display: block; padding-top: 10px; color: black; font-weight: normal;">More information but within the line-size limit.</span></h1>}}
-~~~
-
-Some information about this website and the purpose of it.
+# jemdoc: menu{MENU}{index.html}, notime
+== Zijiang Yan
 
 ~~~
-{}{raw}
-<div class="slideshow-container" style="text-align:center">
-    <div class="mySlides fade">
-        <div class="numbertext">1 / 3</div>
-        <img src="images/home_photo1.jpg" style="width:70%">
-        <div class="text">Home photo 1</div>
-    </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext">2 / 3</div>
-        <img src="images/home_photo2.jpg" style="width:70%">
-        <div class="text">Home photo 2</div>
-    </div>
-
-    <div class="mySlides fade">
-        <div class="numbertext">3 / 3</div>
-        <img src="images/home_photo3.jpg" style="width:70%">
-        <div class="text">Home photo 3</div>
-    </div>
-</div>
-
-<br />
-
-<div style="text-align:center">
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-    <span class="dot"></span> 
-</div>
-
-<script>
-    var slideIndex = 0;
-    showSlides();
-    function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {slideIndex = 1}    
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-        setTimeout(showSlides, 3500); // Change image every 2 seconds
-    }
-</script>
+{}{img_left}{images/yzj_photo_compress.jpg}{zijiang's photo}{}{160px}
+[https://patrickyanz.github.io/ Zijiang Yan] \n 
+Research Assistant, Artificial Intelligence  \n
+[https://lassonde.yorku.ca/eecs/ Electrical Engineering & Computer Science (EECS) Department] \n
+[https://lassonde.yorku.ca/ Lassonde School of Engineering] \n
+[https://www.yorku.ca/ York University], Toronto, ON, Canada \n
+Email: zjiyan at yorku.ca ; yanzijiang97 at gmail.com \n
+\n
+\[[https://www.linkedin.com/in/zijiang-yan/ Linkedin]\] | \[[./Zijiang_Yan_CV.pdf Curriculem Vitae]\] | \[[https://shorturl.at/bc04k Google Scholar]\] | \[[https://www.researchgate.net/profile/Zijiang-Yan/ ResearchGate]\] \n
 ~~~
 
 
-== News
-~~~
-{}{raw}
-<iframe src="rss/news.html" style="border-width:0; border-style:none;" height="800px" width="100%" scrolling="yes"></iframe>
-~~~
+== Bio
+
+I am a researcher specializing in wireless networks and AI-driven vehicular communication. I earned my BSc in Computer Science and Statistics from York University, where I researched in the Next Generation Wireless Networks Lab under [https://sites.google.com/view/ngwn-research-lab/home?authuser=0 Prof. Hina Tabassum]. My work focuses on optimizing beyond 5G/6G networks, deep reinforcement learning for autonomous driving, and AI-enabled vehicular communication. I aim to develop scalable, efficient solutions to enhance safety and performance in vehicular networks. Currently, I am exploring resource-aware communication, quantum-enhanced user association, and hybrid language models for optimizing driving and telecommunication policies, combining technical expertise with impactful research.
+
+== Education
+
+-  B.Sc., Hons. Dbl. Maj. Computer Science & Statistics, Sept. 2016 - Aug. 2021, York University, Canada
+
+== Research Interests
+
+-  Machine Learning-based Resource Allocation in Wireless Networks
+-  AI enabled Vehicular communication
+-  Multi-Objective Reinforcement Learning
+-  Quantum Computing
+-  Autonomous Driving
+-  Aerial/Terrestrial Vehicular Networks
+-  5G/B5G wireless communications
+
