@@ -16,7 +16,7 @@ RESEARCH_DOCS= \
 
 # All Jemdoc files
 # DOCS=index teaching members research publications software news contacts $(TEACHING_DOCS) $(MEMBER_DOCS) $(RESEARCH_DOCS) $(SOFTWARE_DOCS)
-DOCS=index research publications news contacts $(RESEARCH_DOCS) 
+DOCS=index research publications $(RESEARCH_DOCS) 
 ## HTML Files
 HDOCS=$(addsuffix .html, $(DOCS))
 PHDOCS=$(addprefix html/, $(HDOCS))
