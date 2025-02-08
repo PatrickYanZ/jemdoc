@@ -1,21 +1,41 @@
-# jemdoc: menu{MENU}{publications.html}
+# jemdoc: menu{MENU}{publications.html}, notime
 = Publications
 
+(* denotes co-first author)
+
 == Preprints
-. M. Member, and M. Member. [https://arxiv.org/pdf/code Publication title.] Submitted for publication. 
+- Semantic-Aware Adaptive Video Streaming Using Latent Diffusion Models for Wireless Networks \n
+*Zijiang Yan*\*, Jianhua Pei\*, Hongda Wu, Hina Tabassum, Ping Wang \n
+Submitted in 2025
 
-== Books
+- [https://arxiv.org/abs/2405.11331 Generalized Multi-Objective Reinforcement Learning with Envelope Updates in URLLC-enabled Vehicular Networks]. \n
+*Zijiang Yan*, Hina Tabassum \n
+Submitted in 2024, DOI: [https://arxiv.org/abs/2405.11331 arXiv.2405.11331]. \n
+\[[./posters/vts-student-project-zijiang-final-3.pdf Poster]\]
+\[[https://youtu.be/EjZOxzjk9SM 5 minutes Video]\]
+\[[.\envelope-videos.html Illustration Demo]\]
 
-. M. Member and M. Member. [https://book-url Book Title.] Publication info.
 
 == Journal Papers
-
-- M. Member and M. Member. Paper-title. Journal name. (Submitted for publication).
-- M. Member and M. Member. Paper-title. Journal name. (Accepted, to appear).
-- M. Member and M. Member. Paper-title. Journal name. Publication info.
+- [https://doi.org/10.48550/arXiv.2410.08854 Hybrid LLM-DDQN based Joint Optimization of V2I Communication and Autonomous Driving]. \n
+*Zijiang Yan*, Hao Zhou, Hina Tabassum, Xue Liu \n
+IEEE Wireless Communications Letters, 2025. DOI: [https://doi.org/10.1109/LWC.2025.3539638 10.1109/LWC.2025.3539638]. \n
+\[[./research/topic2/llm_highway_env_supplementary_material.pdf Supplementary Materials]\]
 
 == Conference Papers
-- M. Member and M. Member. Paper-title. Conference name. (Submitted for publication).
-- M. Member and M. Member. Paper-title. Conference name. (Accepted, to appear).
-- M. Member and M. Member. Paper-title. Conference name. Publication info.
+- [https://arxiv.org/abs/2501.08418 CVaR-Based Variational Quantum Optimization for User Association in Handoff-Aware Vehicular Networks]. \n
+*Zijiang Yan*, Hao Zhou, Jianhua Pei, Aryan Kaushik, Hina Tabassum, Ping Wang \n
+in ICC 2025 - IEEE International Conference on Communications, 2025.
 
+- [https://doi.org/10.1109/INFOCOMWKSHPS61880.2024.10620888 Optimizing Vehicular Networks with Variational Quantum Circuits-based Reinforcement Learning]. \n
+*Zijiang Yan*, Ramsundar Tanikella, Hina Tabassum \n
+in INFOCOM 2024 Poster - IEEE International Conference on Computer Communications, 2024. \n
+\[[./posters/infocom24-Poster-final5-zijiang.pdf Poster]\]
+
+- [https://ieeexplore.ieee.org/document/10436730 Multi-UAV Speed Control with Collision Avoidance and Handover-Aware Cell Association - DRL with Action Branching]. \n
+*Zijiang Yan*, Wael Jaafar, Bassant Selim, Hina Tabassum \n
+in GLOBECOM 2023 - IEEE Global Communications Conference, 2023.
+
+- [https://ieeexplore.ieee.org/abstract/document/10001396 Reinforcement Learning for Joint V2I Network Selection and Autonomous Driving Policies]. \n
+*Zijiang Yan*, Hina Tabassum \n
+in GLOBECOM 2022 - IEEE Global Communications Conference, 2022.
