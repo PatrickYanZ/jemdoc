@@ -16,3 +16,5 @@ The following are a few problems that we are interested to address:
 
 == Related publications
 - *Zijiang Yan*, Wael Jaafar, Bassant Selim, Hina Tabassum, [https://ieeexplore.ieee.org/document/10436730 Multi-UAV Speed Control with Collision Avoidance and Handover-Aware Cell Association - DRL with Action Branching]. IEEE Global Communications Conference (GLOBECOM'23), 2023.
+
+- *Zijiang Yan*\*, Hao Zhou\*, Jianhua Pei, Hina Tabassum, Hierarchical and Collaborative LLM-Based Control for Multi-UAV Motion and Communication in Integrated Terrestrial and Non-Terrestrial Networks. Submitted in ICML 2025 Workshop on Machine Learning for Wireless Communication and Networks (ML4Wireless), Jul. 2025.
