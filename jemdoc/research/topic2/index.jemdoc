@@ -18,3 +18,5 @@ In particular, for LLM-enabled AD,
 
 == Related Publications
 - *Zijiang Yan*, Hao Zhou, Hina Tabassum, Xue Liu, [https://doi.org/10.1109/LWC.2025.3539638 Hybrid LLM-DDQN based Joint Optimization of V2I Communication and Autonomous Driving]. IEEE Wireless Communications Letters, 2025.
+
+- *Zijiang Yan*, Hao Zhou, Jianhua Pei, Hina Tabassum, [https://arxiv.org/abs/2506.06532 Hierarchical and Collaborative LLM-Based Control for Multi-UAV Motion and Communication in Integrated Terrestrial and Non-Terrestrial Networks]. ICML 2025 Workshop on Machine Learning for Wireless Communication and Networks (ML4Wireless), Jul. 2025.

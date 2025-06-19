@@ -8,15 +8,18 @@
 *Zijiang Yan*\*, Jianhua Pei\*, Hongda Wu, Hina Tabassum, Ping Wang \n
 Submitted in Feb. 2025, DOI: [https://arxiv.org/abs/2502.05695 arXiv.2502.05695]. \n
 
-- [https://arxiv.org/abs/2405.11331 Generalized Multi-Objective Reinforcement Learning with Envelope Updates in URLLC-enabled Vehicular Networks]. \n
+
+
+
+== Journal Papers
+- [https://doi.org/10.1109/TVT.2025.3580502 Generalized Multi-Objective Reinforcement Learning with Envelope Updates in URLLC-enabled Vehicular Networks]. \n
 *Zijiang Yan*, Hina Tabassum \n
-Submitted in May. 2024, DOI: [https://arxiv.org/abs/2405.11331 arXiv.2405.11331]. \n
+IEEE Transactions on Vehicular Technology, Jun. 2025. DOI: [https://doi.org/10.1109/TVT.2025.3580502 10.1109/TVT.2025.3580502]. \n
 \[[./posters/vts-student-project-zijiang-final-3.pdf Poster]\]
 \[[https://youtu.be/EjZOxzjk9SM 5 minutes Video]\]
 \[[./envelope-videos.html Illustration Demo]\]
 
 
-== Journal Papers
 - [https://doi.org/10.1109/LWC.2025.3539638 Hybrid LLM-DDQN based Joint Optimization of V2I Communication and Autonomous Driving]. \n
 *Zijiang Yan*, Hao Zhou, Hina Tabassum, Xue Liu \n
 IEEE Wireless Communications Letters, Feb. 2025. DOI: [https://doi.org/10.1109/LWC.2025.3539638 10.1109/LWC.2025.3539638]. \n
@@ -24,9 +27,9 @@ IEEE Wireless Communications Letters, Feb. 2025. DOI: [https://doi.org/10.1109/L
 
 == Conference Papers
 
-- Hierarchical and Collaborative LLM-Based Control for Multi-UAV Motion and Communication in Integrated Terrestrial and Non-Terrestrial Networks. \n
+- [https://arxiv.org/abs/2506.06532 Hierarchical and Collaborative LLM-Based Control for Multi-UAV Motion and Communication in Integrated Terrestrial and Non-Terrestrial Networks]. \n
 *Zijiang Yan*\*, Hao Zhou\*, Jianhua Pei, Hina Tabassum \n
-submitted in ICML 2025 Workshop on Machine Learning for Wireless Communication and Networks (ML4Wireless), Jul. 2025. 
+in ICML 2025 Workshop on Machine Learning for Wireless Communication and Networks (ML4Wireless), Jul. 2025. 
 
 - [https://arxiv.org/abs/2501.08418 CVaR-Based Variational Quantum Optimization for User Association in Handoff-Aware Vehicular Networks]. \n
 *Zijiang Yan*, Hao Zhou, Jianhua Pei, Aryan Kaushik, Hina Tabassum, Ping Wang \n
