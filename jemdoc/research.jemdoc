@@ -47,3 +47,12 @@ We explore the integration of variational quantum circuits (VQCs) and Condition 
 [./research/topic4 \[read more\]].
 ~~~
 
+== [./research/topic5 Diffusion Model]
+~~~
+{}{table}{TABLE_RESEARCH}
+{{<a href="./research/topic4"><img class="float padright10px" src="./research/topic5/Framework.png"  height="200px"></img></a>}}
+We presented a novel Semantic Communication (SemCom) framework for real-time adaptive-bitrate video streaming by integrating Latent Diffusion Models (LDMs) within the FFmpeg techniques. \n\n
+
+[./research/topic5 \[read more\]].
+~~~
+

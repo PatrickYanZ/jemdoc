@@ -1,26 +1,22 @@
-# jemdoc: menu{MENU}{research.html}
+# jemdoc: menu{MENU}{research.html}, notime
 # jemdoc: addcss{../../jemdoc.css}
-= Topic Name
+= Multi-UAVs Path Planning and Aerial Communication
 
-More about this topic.
-
-More about this topic.
+Develops a Branching Dueling deep reinforcement learning solution to simultaneously optimize the multi-UAV cell-association decisions and their moving speed decisions on a given 3D aerial highway.
 
 The following are a few problems that we are interested to address:
-- Problem 1
-- Problem 2
-- Problem 3
 
-{{<img class="center" style="width: 30em;" src="topic.jpg"></img>}}
+- Senmatic Error through Noisy Wireless Channel
+- Adapted Bitrate Streaming 
+- High Bandwidth and Storage Comsumption on Content Delivery Network (CDN)
 
-== Active lab members
-The following lab members are actively working on this topic:
-- Member 1
-- Member 2
+## {{<img class="center" style="width: 30em;" src="./abr_nn.png"></img>}}
+## {{<img class="center" style="width: 30em;" src="./Framework.png"></img>}}
 
+{{<img class="padright10px" style="width: 40em;" src="./abr_nn.png"></img>}}
+{{<img class="padright10px" style="width: 40em;" src="./Framework.png"></img>}}
 
 == Related publications
-The following publications are related to this topic:
-- M. Member and M. Member. Paper title. Publication info.
-- M. Member and M. Member. Paper title. Publication info.
 
+- *Zijiang Yan*\*, Jianhua Pei\*, Hongda Wu, Hina Tabassum, Ping Wang,[https://arxiv.org/abs/2502.05695 Semantic-Aware Adaptive Video Streaming Using Latent Diffusion Models for Wireless Networks].
+IEEE Wireless Communications, Jul. 2025. 

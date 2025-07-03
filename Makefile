@@ -12,7 +12,7 @@
 
 # Research
 RESEARCH_DOCS= \
-	research/topic1/index research/topic2/index research/topic3/index research/topic4/index
+	research/topic1/index research/topic2/index research/topic3/index research/topic4/index research/topic5/index
 
 # All Jemdoc files
 # DOCS=index teaching members research publications software news contacts $(TEACHING_DOCS) $(MEMBER_DOCS) $(RESEARCH_DOCS) $(SOFTWARE_DOCS)
