@@ -1,8 +1,8 @@
 # jemdoc: menu{MENU}{research.html}, notime
 # jemdoc: addcss{../../jemdoc.css}
-= Multi-UAVs Path Planning and Aerial Communication
+= Latent Diffusion Modeled Based Video Streaming on Semantic Communications 
 
-Develops a Branching Dueling deep reinforcement learning solution to simultaneously optimize the multi-UAV cell-association decisions and their moving speed decisions on a given 3D aerial highway.
+We presented a novel Semantic Communication (SemCom) framework for real-time adaptive-bitrate video streaming by integrating Latent Diffusion Models (LDMs) within the FFmpeg techniques.
 
 The following are a few problems that we are interested to address:
 
