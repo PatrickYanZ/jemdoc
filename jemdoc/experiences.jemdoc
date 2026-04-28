@@ -1,8 +1,16 @@
 # jemdoc: menu{MENU}{experiences.html}, notime
 == Experiences
 
+== DevOps Engineer II at Scotiabank
+- /Toronto, Canada, Apr. 2026 - present/
+- Designed and operated scalable cloud and on-prem infrastructure supporting enterprise data platforms with 100+ integrated systems.
+- Built and maintained CI/CD pipelines and Infrastructure-as-Code using *Terraform* and *Ansible*, improving deployment consistency and efficiency.
+- Managed *Kubernetes (GKE)* clusters and containerized workloads (*Docker*, *Helm*) across development and production environments.
+- Implemented observability using *Prometheus*, *Grafana*, and *ELK*, enabling SLI/SLO-driven monitoring and proactive incident response.
+- Collaborated with data engineering teams to support large-scale data ingestion, processing, and platform reliability.
+
 == Cloud Engineer at Bell Media
-- /Toronto, Canada, Oct. 2021 - present/ 
+- /Toronto, Canada, Oct. 2021 - Jul. 2025/ 
 - Strengthened CI/CD pipeline stability by integrating GitLab and Jenkins, improving infrastructure performance. 
 - Led the Lighthouse project with *Ansible*, enhancing system reliability and visibility across teams. 
 - Contributed to the CRNA DNS project with *Terraform*, ensuring robust and secure connectivity. 
@@ -23,5 +31,5 @@
 
 == Professional Activities
 - *Conference Session Chair*: ICC'25, GLOBECOM'23 
-- *Technical Program Reviewer*: ICC, GLOBECOM, WCNC, VTC, DySPAN 
-- *Journal Reviewer*: TMC, TWC, TCOM, TCCN, OJ-COMS, COMML, WCM, IOTM, M-COMSTD.  
+- *Technical Program Reviewer*: NeurIPS, ICC, GLOBECOM, WCNC, VTC, DySPAN 
+- *Journal Reviewer*: TMC, TWC, TCOM, TCCN, TNSE, TNSM, OJ-COMS, COMML, WCM, IOTM, M-COMSTD, M-Network.  

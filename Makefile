@@ -23,28 +23,37 @@ PHDOCS=$(addprefix html/, $(HDOCS))
 
 .PHONY : all
 all : $(PHDOCS)
-	rm -f html/*.jemdoc
-	cp -f -r ./jemdoc/images ./html
-	cp -f -r ./jemdoc/rss ./html
-	cp -f -r ./eqs ./html | true
+	-if exist html\*.jemdoc del /Q html\*.jemdoc
+	-if exist html\Default.aspx del /Q html\Default.aspx
+	-if exist html\Default.aspx.cs del /Q html\Default.aspx.cs
+	-if exist html\edit.aspx.designer.cs del /Q html\edit.aspx.designer.cs
+	-if exist html\news.html del /Q html\news.html
+	-if exist html\news.rss del /Q html\news.rss
+	-if exist html\rss.js del /Q html\rss.js
+	-if exist html\urls.json del /Q html\urls.json
+	-if exist html\Web.config del /Q html\Web.config
+	-if exist html\*.jpg del /Q html\*.jpg
+	-if exist html\*.jpeg del /Q html\*.jpeg
+	-if exist html\*.png del /Q html\*.png
+	-if exist html\*.gif del /Q html\*.gif
+	-if exist html\*.webp del /Q html\*.webp
+	-if exist jemdoc\images if not exist html\images mkdir html\images
+	-if exist jemdoc\images xcopy /E /I /Y /Q jemdoc\images html\images >nul
+	-if exist jemdoc\rss if not exist html\rss mkdir html\rss
+	-if exist jemdoc\rss xcopy /E /I /Y /Q jemdoc\rss html\rss >nul
+	-if exist eqs xcopy /E /I /Y /Q eqs html >nul
 	@echo "Website building is complete !"
 
 html/%.html : jemdoc/%.jemdoc jemdoc/jemdoc.css
-	$(eval HTML_FILE_PATH := $@)
-	$(eval JEMDOC_FILE_PATH := $<)
-	$(eval HTML_DIR := $(shell dirname $(HTML_FILE_PATH)))
-	$(eval JEMDOC_DIR := $(shell dirname $(JEMDOC_FILE_PATH)))
-	$(eval HTML_FILE_NAME := $(shell basename $(HTML_FILE_PATH)))
-	$(eval JEMDOC_FILE_NAME := $(shell basename $(JEMDOC_FILE_PATH)))
-	mkdir -p $(HTML_DIR)
-	cp $(JEMDOC_DIR)/*.* $(HTML_DIR)
-	rm -f $(HTML_DIR)/$(JEMDOC_FILE_NAME)
-	./jemdoc.py -c website.conf -o $@ $<
+	@if not exist "$(subst /,\,$(dir $@))" mkdir "$(subst /,\,$(dir $@))"
+	-if exist "$(subst /,\,$(dir $<))*.*" xcopy /E /I /Y /Q "$(subst /,\,$(dir $<))*.*" "$(subst /,\,$(dir $@))" >nul
+	-if exist "$(subst /,\,$(dir $@))$(notdir $<)" del /Q "$(subst /,\,$(dir $@))$(notdir $<)"
+	python jemdoc.py -c website.conf -o $@ $<
 
 .PHONY : clean
 clean :
-	rm -f -r html/
-	rm -f -r eqs/
+	-if exist html rmdir /S /Q html
+	-if exist eqs rmdir /S /Q eqs
 
 .PHONY : install
 install :

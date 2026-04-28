@@ -5,15 +5,30 @@
 
 == Preprints
 
+- Intelligent Multi-UAV Navigation in ITNTNs\: A Hierarchical LLM Approach \n
+*Zijiang Yan*, Hao Zhou, Wael Jaafar, Jianhua Pei, Ping Wang, Halim Yanikomeroglu, Hina Tabassum \n
+May. 2026. \n
+
+- Hierarchical LLM-Driven Control for HAPS-Assisted UAV Networks\: Joint Optimization of Flight and Connectivity \n
+*Zijiang Yan*, Hao Zhou, Wael Jaafar, Jianhua Pei, Ping Wang, Halim Yanikomeroglu, Hina Tabassum \n
+Apr. 2026. \n
+
+- Concept Drift-Aware Load Forecasting for IoT Energy Systems Leveraging TimesNet-Based Two-Layer Framework.  \n
+Yixiang Huang, *Zijiang Yan*, Jianhua Pei, Jinfu Chen  \n
+Mar. 2026. \n
+
+- [https://doi.org/10.48550/arXiv.2512.15067 EMFusion\: Conditional Diffusion Framework for Trustworthy Frequency Selective EMF Forecasting in Wireless Networks].  \n
+*Zijiang Yan*\*, Yixiang Huang\*, Jianhua Pei, Hina Tabassum, Luca Chiaraviglio  \n
+arXiv.2512.15067, Dec. 2025. DOI: [https://doi.org/10.48550/arXiv.2512.15067 10.48550/arXiv.2512.15067]. \n
 
 
 
 
 == Journal Papers
 
-- [https://arxiv.org/abs/2502.05695 Semantic-Aware Adaptive Video Streaming Using Latent Diffusion Models for Wireless Networks]. \n
+- [https://ieeexplore.ieee.org/document/11175641 Semantic-Aware Adaptive Video Streaming Using Latent Diffusion Models for Wireless Networks]. \n
 *Zijiang Yan*\*, Jianhua Pei\*, Hongda Wu, Hina Tabassum, Ping Wang \n
-IEEE Wireless Communications, Jul. 2025. DOI: [https://arxiv.org/abs/2502.05695 arXiv.2502.05695]. \n
+IEEE Wireless Communications, Jul. 2025. DOI: [https://ieeexplore.ieee.org/document/11175641 10.1109/MWC.001.2500068]. \n
 
 
 - [https://doi.org/10.1109/TVT.2025.3580502 Generalized Multi-Objective Reinforcement Learning with Envelope Updates in URLLC-enabled Vehicular Networks]. \n
@@ -35,7 +50,7 @@ IEEE Wireless Communications Letters, Feb. 2025. DOI: [https://doi.org/10.1109/L
 *Zijiang Yan*\*, Hao Zhou\*, Jianhua Pei, Hina Tabassum \n
 in ICML 2025 Workshop on Machine Learning for Wireless Communication and Networks (ML4Wireless), Jul. 2025. 
 
-- [https://arxiv.org/abs/2501.08418 CVaR-Based Variational Quantum Optimization for User Association in Handoff-Aware Vehicular Networks]. \n
+- [https://ieeexplore.ieee.org/document/11161596 CVaR-Based Variational Quantum Optimization for User Association in Handoff-Aware Vehicular Networks]. \n
 *Zijiang Yan*, Hao Zhou, Jianhua Pei, Aryan Kaushik, Hina Tabassum, Ping Wang \n
 in ICC 2025 - IEEE International Conference on Communications, Jun. 2025.
 
